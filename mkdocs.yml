@@ -1,0 +1,105 @@
+site_name: find.software
+site_author: Ronny Gey
+site_url: https://find-software.codeberg.page
+repo_url: https://codeberg.org/find-software/website
+edit_uri: blob/main/docs/
+repo_name: 'find.software'
+copyright: Copyright &copy; 2021 - 2025 Helmholtz Centre for Environmental Research  |  <a href="https://www.ufz.de/imprint">Imprint</a> 
+strict: false
+
+plugins:
+  - search
+  - blog:
+      enabled: true
+      authors: true
+      post_date_format: medium
+      post_url_date_format: yyyy/MM/dd
+      post_url_format: "{date}/{slug}"
+  - meta:
+     enabled: true
+  - tags:
+      tags: true
+      enabled: true
+  #- bibtex:
+  #    bib_file: "find.software.bib"
+  #    enable_inline_citations: false
+  #- git-revision-date-localized:
+  #     type: datetime
+  - glightbox
+  #- git-authors
+
+theme:
+    name: material
+    custom_dir: overrides
+    #custom_dir: docs/css
+    sticky-navigation: true
+    collapse_navigation: true
+    navigation_depth: 4
+    favicon: img/favicon.ico
+    logo: img/find-software-logo.png
+    locale: en
+    features:
+      - navigation.instant
+      - navigation.instant.progress
+      - navigation.indexes
+      - navigation.path
+      - navigation.tracking
+      - navigation.tabs
+      - navigation.tabs.sticky
+      - search.highlight
+      - content.action.edit
+      - content.action.view
+      - toc.follow
+      - toc.integrate
+    icon:
+        repo: simple/codeberg
+    extra:
+        second_logo: 
+
+markdown_extensions:
+  - admonition
+  - footnotes
+  - pymdownx.details #e.g. collapsible admonition blocks
+  - pymdownx.superfences
+  - pymdownx.critic
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+  - tables
+  - md_in_html 
+  - attr_list # for using img attributes: align, width etc
+  - abbr # for abbreviations
+  - pymdownx.snippets: # for abbreviation glossary in a single file
+      auto_append:
+        - includes/abbreviations.md
+  - toc:
+        permalink: true
+
+extra_css:
+    - css/extra.css
+    
+extra:
+  social:
+    - icon: simple/codeberg
+      link: https://www.codeberg.org/find-software/website
+    - icon: fontawesome/brands/mastodon
+      link: https://mas.to/@find_software
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:rdm-contact@ufz.de
+
+nav:
+    - Home: 
+      - index.md
+    - Team:
+      - team/index.md
+    - Publications:
+      - publications/index.md
+    - Talks:
+      - talks/index.md
+    - Output and Services:
+      - output/index.md
+    - Blog:
+      - blog/index.md
+    - Friends:
+      - friends/index.md

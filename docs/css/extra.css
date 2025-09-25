@@ -1,0 +1,65 @@
+p.caption {
+  color: #2980B9;
+}
+
+img.emojione {
+  width: 15px;
+}
+
+img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+img.no-shadow {
+    box-shadow: none;
+}
+
+img[alt="logo"] {
+    box-shadow: none;
+}
+
+.md-header__button.md-logo img{
+    height: 3.3rem;
+}
+
+.md-header__button.md-logo {
+  display: flex;
+  align-items: center;
+}
+
+/**
+.md-header__button.md-logo::after {
+  content: "";
+  display: inline-block;
+  width: 120px;
+  height: 65px;
+  background-image: url("../img/RDM_subline_inverted_white.png");
+  background-size: cover;
+  margin-left: 18px;
+}
+**/
+
+.md-header {
+--md-primary-fg-color: #000000;
+}
+
+.md-container a {
+  --md-primary-fg-color: #00589c;
+  --md-accent-fg-color: #0088ac
+}
+
+.md-typeset__table {
+  width: 100%;
+}
+
+.md-typeset__table table:not([class]) {
+  display: table
+}
+
+.md-footer {
+  background-color: #000000;
+}
+
+.md-search__input {
+  background:#0f0f0f
+}

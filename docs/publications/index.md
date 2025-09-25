@@ -1,0 +1,3 @@
+# Publications
+
+\full_bibliography

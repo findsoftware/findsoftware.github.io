@@ -1,0 +1,9 @@
+.idea/
+*.html
+public/
+site/
+*.DS_Store
+poetry.lock
+.woodpecker/archive/
+
+!overrides/partials/actions.html

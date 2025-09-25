@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "find.software website"
+package-mode = false
+version = "0.1.0"
+description = ""
+authors = ["Ronny Gey"]
+license = "CC-BY-4.0"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+mkdocs = "^1.6.0"
+markdown = "^3.3.6"
+pymdown-extensions = "^10.3.0"
+mkdocs-material = "^9.5.31"
+mkdocs-git-revision-date-localized-plugin = "^1.0.0"
+mkdocs-glightbox = "^0.5.0"
+mkdocs-video = "^1.5.0"
+mkdocs-git-authors-plugin = "^0.10.0"
+pendulum = "^3.0.0"
+mkdocs-bibtex = "^4.4.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
