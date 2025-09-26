@@ -27,7 +27,7 @@ steps:
       - git config --global user.email "$CBMAIL"
       - git config --global user.name "CI Docs Builder"
       - mv domains site/.domains
-      - git remote set-url origin https://$CBTOKEN@codeberg.org/find-software/website.git
+      - git remote set-url origin https://$CBTOKEN@codeberg.org/find-software/site.git
       - git switch --orphan pages
       - cp -r site/* .
       - rm -rf site
