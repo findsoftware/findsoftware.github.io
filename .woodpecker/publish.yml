@@ -6,31 +6,20 @@ steps:
   build-docs:
     when:
       event: [push, pull_request]
+    # build the docs with mkdocs and add the .domains file for codeberg pages
     image: squidfunk/mkdocs-material
     commands:
       - pip install poetry
-      - poetry install
-      - poetry run mkdocs build -d site $MKDOCS_ARGS
+      - poetry run mkdocs build
+      - echo -e 'find-software.org\ntheologe.codeberg.page\npages.theologe.codeberg.page' > site/.domains
 
   deploy-docs:
     when:
       event: [push, pull_request]
+    image: codeberg.org/xfix/plugin-codeberg-pages-deploy:1
+    settings:
+      folder: site
+      repository_name: theologe/site
       branch: main
-    image: alpine:latest
-    environment:
-      CBMAIL:
-        from_secret: mail
-      CBTOKEN:
-        from_secret: token
-    commands:
-      - apk add --no-cache git
-      - git config --global user.email "$CBMAIL"
-      - git config --global user.name "CI Docs Builder"
-      - mv domains site/.domains
-      - git remote set-url origin https://$CBTOKEN@codeberg.org/find-software/site.git
-      - git switch --orphan pages
-      - cp -r site/* .
-      - rm -rf site
-      - git add --all
-      - git commit -m "Update Docs ($(TZ=Europe/Berlin date +"%d.%m.%Y %Z")) [SKIP CI]" || exit 0
-      - git push -f --set-upstream origin pages
+      ssh_key:
+        from_secret: codeberg_push_from_ci_priv_key
