@@ -10,6 +10,7 @@ steps:
     image: squidfunk/mkdocs-material
     commands:
       - pip install poetry
+      - poetry install
       - poetry run mkdocs build
       - echo -e 'find-software.org\ntheologe.codeberg.page\npages.theologe.codeberg.page' > site/.domains
 
