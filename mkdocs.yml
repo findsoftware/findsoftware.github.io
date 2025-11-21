@@ -1,9 +1,9 @@
 site_name: find.software
-site_author: Ronny Gey
-site_url: https://find-software.codeberg.page
-repo_url: https://codeberg.org/find-software/website
+site_author: Ronny Gey, Daniel Mietchen, Oliver Karras
+site_url: https://findsoftware.github.io/website
+repo_url: https://github.com/findsoftware/website
 edit_uri: blob/main/docs/
-repo_name: 'find.software'
+repo_name: 'website'
 copyright: Copyright &copy; 2021 - 2025 Helmholtz Centre for Environmental Research  |  <a href="https://www.ufz.de/imprint">Imprint</a> 
 strict: false
 
@@ -20,9 +20,9 @@ plugins:
   - tags:
       tags: true
       enabled: true
-  #- bibtex:
-  #    bib_file: "find.software.bib"
-  #    enable_inline_citations: false
+  - bibtex:
+      bib_file: "find.software.bib"
+      enable_inline_citations: false
   #- git-revision-date-localized:
   #     type: datetime
   - glightbox
@@ -52,7 +52,7 @@ theme:
       - toc.follow
       - toc.integrate
     icon:
-        repo: simple/codeberg
+        repo: simple/github
     extra:
         second_logo: 
 
@@ -81,8 +81,8 @@ extra_css:
     
 extra:
   social:
-    - icon: simple/codeberg
-      link: https://www.codeberg.org/find-software/website
+    - icon: simple/github
+      link: https://www.github.com/findsoftware/website
     - icon: fontawesome/brands/mastodon
       link: https://mas.to/@find_software
     - icon: fontawesome/solid/paper-plane
