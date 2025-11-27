@@ -100,4 +100,4 @@ For full details, see [LICENSE](./LICENSE).
 
 Funded by the [Deutsche Forschungsgemeinschaft (DFG, German Research Foundation)](https://www.dfg.de) – [Project number: 567156310](https://gepris.dfg.de/gepris/projekt/567156310?language=en)
 
-![Funded by DFG](img/dfg_logo_englisch_blau_en_4c.svg){:class="no-shadow", width="350"}
+![Funded by DFG](img/dfg_logo_englisch_blau_en_4c.svg)
