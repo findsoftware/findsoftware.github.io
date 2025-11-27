@@ -3,7 +3,7 @@ site_author: Ronny Gey, Daniel Mietchen, Oliver Karras
 site_url: https://findsoftware.github.io
 repo_url: https://github.com/findsoftware/findsoftware.github.io
 edit_uri: blob/main/docs/
-repo_name: 'website'
+repo_name: 'findsoftware.github.io'
 copyright: Copyright &copy; 2021 - 2025 Helmholtz Centre for Environmental Research  |  <a href="https://www.ufz.de/imprint">Imprint</a> 
 strict: false
 
@@ -31,12 +31,15 @@ plugins:
 theme:
     name: material
     custom_dir: overrides
-    #custom_dir: docs/css
     sticky-navigation: true
     collapse_navigation: true
-    navigation_depth: 4
+    navigation_depth: 3
     favicon: img/favicon.ico
-    logo: img/find-software-logo.png
+    logo: img/find.software_logo_5.png
+    #logo: img/find.software_logo_4.png
+    #logo: img/find.software_logo_3.png
+    #logo: img/find.software_logo_2.png
+    #logo: img/find.software.png
     locale: en
     features:
       - navigation.instant
@@ -50,7 +53,7 @@ theme:
       - content.action.edit
       - content.action.view
       - toc.follow
-      - toc.integrate
+      #- toc.integrate
     icon:
         repo: simple/github
     extra:
@@ -82,7 +85,7 @@ extra_css:
 extra:
   social:
     - icon: simple/github
-      link: https://www.github.com/findsoftware/website
+      link: https://www.github.com/findsoftware/findsoftware.github.io
     - icon: fontawesome/brands/mastodon
       link: https://mas.to/@find_software
     - icon: fontawesome/solid/paper-plane
@@ -95,8 +98,8 @@ nav:
       - team/index.md
     - Publications:
       - publications/index.md
-    - Talks:
-      - talks/index.md
+    - Workshops:
+      - workshops/index.md
     - Output and Services:
       - output/index.md
     - Blog:

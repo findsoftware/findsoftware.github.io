@@ -1,9 +1,12 @@
 ---
 icon: material/home-outline
+hide:
+  - navigation
+  - toc
 ---
 # find.software
 
-**Foundations for Interdisciplinary Discovery of (Research) Software**
+With **find.software (Foundations for Interdisciplinary Discovery of (Research) Software)**, we aim to develop a single point of entry for searching for research software. Imagine you are looking for scientific software, regardless of your scientific field, the programming language or operating system you use, your technical knowledge, or whether you are a developer or a simple user. To this end, we are working together with **Wikidata** and the **scientific community** to build a solution for the community and with the community, an **open solution** that knows no national boundaries.
 
 ??? info "Abstract grant proposal:"
 
@@ -43,3 +46,5 @@ icon: material/home-outline
 ## Acknowledgements
 
 Funded by the [Deutsche Forschungsgemeinschaft (DFG, German Research Foundation)](https://www.dfg.de) – [Project number: 567156310](https://gepris.dfg.de/gepris/projekt/567156310?language=en)
+
+![Funded by DFG](img/dfg_logo_englisch_blau_en_4c.svg){:class="no-shadow", width="350"}
