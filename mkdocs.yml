@@ -36,10 +36,6 @@ theme:
     navigation_depth: 3
     favicon: img/favicon.ico
     logo: img/find.software_logo_5.png
-    #logo: img/find.software_logo_4.png
-    #logo: img/find.software_logo_3.png
-    #logo: img/find.software_logo_2.png
-    #logo: img/find.software.png
     locale: en
     features:
       - navigation.instant

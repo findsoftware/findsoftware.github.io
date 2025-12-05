@@ -13,11 +13,15 @@ Daniel Mietchen [![ORCID](../img/ORCID.png){:class="no-shadow", width="20"}](htt
 
 Moritz Schubotz [![ORCID](../img/ORCID.png){:class="no-shadow", width="20"}](https://orcid.org/0000-0001-7141-4997)
 
+Ankit Satpute  [![ORCID](../img/ORCID.png){:class="no-shadow", width="20"}](https://orcid.org/0000-0003-3219-026X)
+
 ---
 
 ![TIB](../img/tib-full.svg){:class="no-shadow", width="250", align="right", style="margin: 0px 0 5px 0"}
 
 Oliver Karras [![ORCID](../img/ORCID.png){:class="no-shadow", width="20"}](https://orcid.org/0000-0001-5336-6899)
+
+Elsa Rahgooy [![ORCID](../img/ORCID.png){:class="no-shadow", width="20"}](https://orcid.org/)
 
 ---
 

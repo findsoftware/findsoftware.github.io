@@ -1,6 +1,13 @@
 # find.software
 
-With **find.software (Foundations for Interdisciplinary Discovery of (Research) Software)**, we aim to develop a single point of entry for searching for research software. Imagine you are looking for scientific software, regardless of your scientific field, the programming language or operating system you use, your technical knowledge, or whether you are a developer or a simple user. To this end, we are working together with **Wikidata** and the **scientific community** to build a solution for the community and with the community, an **open solution** that knows no national boundaries.
+With **find.software (Foundations for Interdisciplinary Discovery of (Research)
+Software)**, we aim to develop a single point of entry for searching for
+research software. Imagine you are looking for scientific software, regardless
+of your scientific field, the programming language or operating system you use,
+your technical knowledge, or whether you are a developer or a simple user. To
+this end, we are working together with **Wikidata** and the **scientific
+community** to build a solution for the community and with the community, an
+**open solution** that knows no national boundaries.
 
 ## Abstract grant proposal
 
@@ -40,7 +47,8 @@ longer term.
 To install the project, follow these steps:
 
 1. Fork main branch into your personal repository.
-2. Clone this repository to your local machine using the following command in a terminal.
+2. Clone this repository to your local machine using the following command in a
+   terminal.
 
     ```bash
     git clone
@@ -98,6 +106,8 @@ For full details, see [LICENSE](./LICENSE).
 
 ## Acknowledgements
 
-Funded by the [Deutsche Forschungsgemeinschaft (DFG, German Research Foundation)](https://www.dfg.de) – [Project number: 567156310](https://gepris.dfg.de/gepris/projekt/567156310?language=en)
+Funded by the [Deutsche Forschungsgemeinschaft (DFG, German Research
+Foundation)](https://www.dfg.de) – [Project number:
+567156310](https://gepris.dfg.de/gepris/projekt/567156310?language=en)
 
-![Funded by DFG](img/dfg_logo_englisch_blau_en_4c.svg)
+![Funded by DFG](docs/img/dfg_logo_englisch_blau_en_4c.svg)
