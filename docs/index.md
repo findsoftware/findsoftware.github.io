@@ -8,7 +8,7 @@ hide:
 
 With **find.software (Foundations for Interdisciplinary Discovery of (Research) Software)**, we aim to develop a single point of entry for searching for research software. Imagine you are looking for scientific software, regardless of your scientific field, the programming language or operating system you use, your technical knowledge, or whether you are a developer or a simple user. To this end, we are working together with **Wikidata** and the **scientific community** to build a solution for the community and with the community, an **open solution** that knows no national boundaries.
 
-??? info "Abstract grant proposal:"
+??? info "Abstract of the [grant proposal](https://doi.org/10.3897/rio.11.e179253):"
 
     Across essentially all fields of research, many aspects of the respective
     research processes - whether experimental, theoretical, empirical, or outright
