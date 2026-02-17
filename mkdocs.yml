@@ -4,7 +4,7 @@ site_url: https://findsoftware.github.io
 repo_url: https://github.com/findsoftware/findsoftware.github.io
 edit_uri: blob/main/docs/
 repo_name: 'findsoftware.github.io'
-copyright: Copyright &copy; 2021 - 2025 Helmholtz Centre for Environmental Research  |  <a href="https://www.ufz.de/imprint">Imprint</a> 
+copyright: Copyright &copy; 2021 - 2026 Helmholtz Centre for Environmental Research  |  <a href="https://www.ufz.de/imprint">Imprint</a> 
 strict: false
 
 plugins:
