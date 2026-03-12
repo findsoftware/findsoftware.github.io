@@ -1,9 +1,3 @@
-.idea/
-*.html
-public/
-site/
-*.DS_Store
+.woodpecker/*
 poetry.lock
-.woodpecker/archive/
-
-!overrides/partials/actions.html
+site/*
