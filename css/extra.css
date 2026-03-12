@@ -1,0 +1,130 @@
+.md-grid {
+  max-width: 1000px; 
+}
+
+p.caption {
+  color: #2980B9;
+}
+
+img.emojione {
+  width: 15px;
+}
+
+img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+img.no-shadow {
+    box-shadow: none;
+}
+
+img[alt="logo"] {
+    box-shadow: none;
+}
+
+.md-header__button.md-logo img{
+    height: 3.3rem;
+}
+
+.md-header__button.md-logo {
+  display: flex;
+  align-items: center;
+}
+
+/**
+.md-header__button.md-logo::after {
+  content: "";
+  display: inline-block;
+  width: 120px;
+  height: 65px;
+  background-image: url("../img/RDM_subline_inverted_white.png");
+  background-size: cover;
+  margin-left: 18px;
+}
+**/
+
+.md-header {
+--md-primary-fg-color: #000000;
+}
+
+.md-container a {
+  --md-primary-fg-color: #006699;
+  --md-accent-fg-color: #339966;
+}
+
+.md-typeset__table {
+  width: 100%;
+}
+
+.md-typeset__table table:not([class]) {
+  display: table
+}
+
+.md-typeset .md-content__button {
+  color: rgba(162, 0, 0, 0.4);
+}
+
+.md-typeset h1 {
+  font-size: 1.5em;
+  line-height: 1.2;
+  margin: 0 0 1.0em;
+}
+
+.md-typeset h2 {
+  font-size: 1.3em;
+  line-height: 1.1;
+  margin: 0 0 0.3em ;
+}
+
+.md-typeset h3 {
+  font-size: 1.2em;
+  line-height: 1.0;
+  margin: 0 0 0.2em ;
+}
+
+.md-footer {
+  background-color: #000000;
+}
+
+.md-search__input {
+  background: #fff;
+}
+
+.md-header .md-search {
+ color: #000000;
+}
+
+/** Search icon and placeholder**/
+.md-search .md-search__icon, .md-search__input::placeholder {
+  color: #000000;
+}
+
+/** Admonition Info Color Change **/
+.md-typeset .admonition.info,
+.md-typeset details.info {
+  border-color: #990000;
+}
+.md-typeset .info > .admonition-title, .md-typeset .info > summary {
+  background-color: rgba(162, 0, 0, 0.156);
+}
+.md-typeset .info > .admonition-title::before,
+.md-typeset .info > summary::before {
+  background-color: #990000;
+}
+.md-typeset details.info:focus-within {
+  box-shadow: 0 0 0 .2rem #d400001a;
+}
+
+.md-typeset .md-admonition-icon-info{
+  color: #990000
+}
+
+.md-typeset .info > summary::after {
+  color: #990000;
+}
+
+/** the announcement banner in the top of the header **/
+.md-banner {
+  background-color: rgba(162, 0, 0, 0.156);
+  color: #000000;
+}
