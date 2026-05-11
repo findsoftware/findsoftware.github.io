@@ -40,4 +40,4 @@ jobs:
           github_token: ${{ secrets.token_github }}
           homeserver: 'https://matrix.org'
           roomid: '!VXALJPMmuCJorAqLwQ:matrix.org'
-          workflow_description: "Website updated! See [find-software.org](https://www.find-software.org)"
+          workflow_description: "Website updated! See https://www.find-software.org"
