@@ -39,6 +39,7 @@ jobs:
           github_token: ${{ secrets.token_github }}
           homeserver: 'https://matrix.org'
           roomid: '!VXALJPMmuCJorAqLwQ:matrix.org'
+          workflow_description: "Website updated!"
 
       - name: Print the event ID
         run: echo "Website updated '${{ steps.message.outputs.eventId }}'"
