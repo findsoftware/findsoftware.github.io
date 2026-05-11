@@ -29,16 +29,15 @@ jobs:
       - run: poetry run mkdocs build
       - run: poetry run mkdocs gh-deploy --force
   notify:
+    if: always()
     runs-on: ubuntu-latest
-    name: Send message via Matrix
+    needs: [deploy]
     steps:
-    - name: Send message to test room
-      id: matrix-chat-message
-      uses: select/matrix-message-e2e@main
-      with:
-        matrix_token: ${{ secrets.matrix_access_token }}
-        github_token: ${{ secrets.token_github }}
-        homeserver: 'https://matrix.org'
-        roomid: '!VXALJPMmuCJorAqLwQ:matrix.org'
-        workflow_description: "Website updated!"
-        message: "${{ github.event.sender.login }} updated the find.software website."
+      - uses: Cadair/matrix-notify-action@main
+        id: message
+        with:
+          matrix_token: ${{ secrets.matrix_access_token }}
+          github_token: ${{ secrets.token_github }}
+          homeserver: 'https://matrix.org'
+          roomid: '!VXALJPMmuCJorAqLwQ:matrix.org'
+          workflow_description: "Website updated! See [find-software.org](https://www.find-software.org)"
