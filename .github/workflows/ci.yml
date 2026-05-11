@@ -40,7 +40,6 @@ jobs:
           homeserver: 'https://matrix.org'
           roomid: '!VXALJPMmuCJorAqLwQ:matrix.org'
           workflow_description: "Website updated!"
-          message: "Website updated."
-
+          message: "${{ github.event.sender.login }} updated the find.software website."
       - name: Print the event ID
         run: echo "Website updated '${{ steps.message.outputs.eventId }}'"
