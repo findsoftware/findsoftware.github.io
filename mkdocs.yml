@@ -1,5 +1,5 @@
 site_name: find.software
-site_author: Ronny Gey, Daniel Mietchen, Oliver Karras
+site_author: Ronny Gey, Daniel Mietchen, Oliver Karras, Ankit Satpute
 site_url: https://findsoftware.github.io
 repo_url: https://github.com/findsoftware/findsoftware.github.io
 edit_uri: blob/main/docs/
@@ -103,8 +103,10 @@ nav:
       - publications/index.md
     - Workshops:
       - workshops/index.md
-    - Output and Services:
-      - output/index.md
+    - Services:
+      - services/index.md
+      - Personas: services/personas.md
+      
     - Blog:
       - blog/index.md
     - Friends:
