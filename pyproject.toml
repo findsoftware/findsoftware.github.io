@@ -1,27 +1,28 @@
-[tool.poetry]
-name = "find.software website"
-package-mode = false
+[project]
+name = "find.software-website"
 version = "0.1.0"
-description = ""
-authors = ["Ronny Gey"]
+description = "find.software"
+readme = "README.md"
 license = "CC-BY-4.0"
+authors = [
+    { name = "Ronny Gey", email = "ronny.gey@ufz.de" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "academic>=0.11.2",
+]
 
-[tool.poetry.dependencies]
-python = "^3.11"
-mkdocs = "^1.6.0"
-markdown = "^3.3.6"
-pymdown-extensions = "^10.3.0"
-mkdocs-material = "^9.5.31"
-mkdocs-git-revision-date-localized-plugin = "^1.0.0"
-mkdocs-glightbox = "^0.5.0"
-mkdocs-video = "^1.5.0"
-mkdocs-git-authors-plugin = "^0.10.0"
-pendulum = "^3.2.0"
-mkdocs-bibtex = "^4.4.0"
-mkdocs-rss-plugin = "^1.17"
+[project.scripts]
+docs = "docs:main"
 
-[tool.poetry.dev-dependencies]
+[tool.uv]
+package = false
 
 [build-system]
-requires = ["poetry-core>=1.0.0"]
-build-backend = "poetry.core.masonry.api"
+requires = ["uv_build>=0.12.5,<0.14"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "zensical>=0.1.0",
+]
