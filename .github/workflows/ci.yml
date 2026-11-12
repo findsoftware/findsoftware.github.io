@@ -41,5 +41,5 @@ jobs:
           matrix_token: ${{ secrets.matrix_access_token }}
           github_token: ${{ secrets.token_github }}
           homeserver: 'https://matrix.org'
-          roomid: '!GUiXMqCtxKlSZXLDdw:matrix.org'
+          roomid: '!n8_c63gQIoLruHdzM6v3Dje5qAIiQpq3rtFbvcLMlJM'
           workflow_description: "Website updated! See https://www.find-software.org"
