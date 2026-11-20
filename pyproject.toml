@@ -5,15 +5,13 @@ description = "find.software"
 readme = "README.md"
 license = "CC-BY-4.0"
 authors = [
-    { name = "Ronny Gey", email = "ronny.gey@ufz.de" }
+    { name = "Ronny Gey", email = "ronny.gey@ufz.de" },
+    { name = "Ankit Satpute", email = "ankit.satpute@fiz-karlsruhe.de" }
 ]
 requires-python = ">=3.14"
 dependencies = [
     "academic>=0.11.2",
 ]
-
-[project.scripts]
-docs = "docs:main"
 
 [tool.uv]
 package = false
