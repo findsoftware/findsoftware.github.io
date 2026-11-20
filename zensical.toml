@@ -16,8 +16,10 @@ nav = [
 
   { "Home" = "index.md" },
 
-  { "Team" = [
-    "team/index.md",
+  { "About us" = [
+    "about/index.md",
+    {"Team" = "about/team.md"},
+    {"Advisory Board" = "about/advisory-board.md"},
   ]},
 
   { "Publications" = [
